@@ -1,5 +1,6 @@
 <!-- Document type -->
 <!-- skeleton -->
+<!-- CSS 練習 -->
 <!DOCTYPE html>
 <html lang="zh-Hant">
   <head>
@@ -13,36 +14,21 @@
     <meta name="author" content="WunYu Lin" />
     <!-- 新分頁中顯示結果 -->
     <base target="_blank" />
-    <style>
-      table,
-      th,
-      td {
-        border-collapse: collapse;
-        border: 1px solid black;
-      }
-      th,
-      td {
-        padding: 0.25rem;
-      }
-      h1 {
-        color: rgb(128, 0, 0);
-      }
-    </style>
-  </head>
+    <link rel="stylesheet" href="./style.css">
   <body>
     <!-- 標題 -->
     <h1
       class="heading"
-      style="color: rgb(139, 61, 61)"
+      id="firstH1"
       onclick="alert('按下了H1標籤')"
     >
       我的網頁
     </h1>
 
     <!-- 段落 -->
-    <p>我的第一支網頁</p>
+    <p class="firstP">我的第一支網頁</p>
 
-    <h1>台灣積體電路製造股份有限公司</h1>
+    <h1 class="mutiClass1 mutiClass2">台灣積體電路製造股份有限公司</h1>
 
     <p>
       台灣積體電路製造股份有限公司（英語：Taiwan Semiconductor Manufacturing Co.,Ltd.）<br>
@@ -144,11 +130,12 @@
     </table>
     <h1>相關連結</h1>
     <!-- div is block element -->
-    <div class="">
-      <a href="https://www.google.com">Google首頁</a>
+    <div class="link1">
+      <a class="redtext" href="https://www.google.com">Google首頁</a>
+        <p>test</p>
     </div>
-    <div>
-      <a href="https://www.youtube.com">Youtube首頁</a>
+    <div class="link2">
+      <a class="bluetext" href="https://www.youtube.com">Youtube首頁</a>
     </div>
   </body>
 </html>

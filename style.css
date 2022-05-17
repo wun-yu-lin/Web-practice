@@ -1,8 +1,92 @@
 /* 這些是CSS設定 */
-h1 {
+/* h1 {
   color: #37eb34);
 }
 
 p {
     color: #6e1008;
+} */
+
+/* Universal selector */
+/* * {
+  color: green;
+} */
+
+/* element Selector */
+h1 {
+  color: red;
+}
+
+/* id Selector 特定ID更改顏色*/
+
+#firstH1 {
+  color: blue;
+}
+
+/* class selector */
+.firstP {
+  color: rgb(255, 0, 204);
+}
+
+/* muti class selector */
+.mutiClass1 {
+  color: rgb(255, 0, 204);
+}
+
+.mutiClass2 {
+  font-size: 1.5rem;
+}
+
+/* element selector + class selector */
+h1.heading {
+  font-weight: 100;
+}
+
+/* Grouping Selector */
+h1,
+h2,
+h3 {
+  color: red;
+}
+
+/* Descendant selector */
+div.link1 a {
+  color: red;
+}
+div.link2 a {
+  color: blue;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+  color: red;
+}
+
+/* pseudo-class */
+
+textarea:hover {
+  background-color: rgba(0, 238, 255, 0.1);
+}
+input[type="text"]:hover {
+  color: rgb(255, 144, 127);
+}
+
+/* Pseudo-element */
+p::before {
+  content: "<內文>";
+  color: brown;
+}
+
+p::after {
+  content: "<結尾>";
+  color: brown;
+}
+
+h1::first-letter {
+  font-size: 3rem;
+}
+
+/* Universal selector + Pseudo-element */
+*::selection {
+  background-color: rgba(0, 238, 255, 0.1);
 }
