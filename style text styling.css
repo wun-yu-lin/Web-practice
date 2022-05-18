@@ -1,0 +1,40 @@
+/* font-size */
+p {
+  font-size: 0.5rem;
+}
+
+/* text-align */
+body {
+  text-align: center;
+}
+
+/* text-decoration */
+
+body {
+  text-decoration: underline;
+}
+
+/* line-height */
+p {
+  line-height: 200%;
+}
+
+/* font-family 字體  & font-weight字粗度*/
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+/* background */
+body {
+  background-color: bisque;
+}
+
+/* background picture */
+body {
+  background-image: url("./image/bcakground.jpg");
+
+  color: rgb(72, 0, 255);
+  background-position: cover;
+  background-repeat: repeat;
+}

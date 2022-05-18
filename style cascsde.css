@@ -1,0 +1,12 @@
+/* h1 {
+  color: Blue;
+}
+
+/* CSS specificity */
+/* h1.redtext {
+  color: red;
+} */
+
+body {
+  color: brown;
+}
