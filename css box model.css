@@ -1,0 +1,36 @@
+h1.plc {
+  color: rgb(0, 255, 247);
+  background-color: rgba(42, 47, 138, 0.463);
+}
+
+/* padding */
+/* 2px 10px 6px 3px up right down left */
+/* 2px 10px  updown rightleft */
+/* 2px updownrightleft */
+button.example {
+  padding: 1rem 1rem;
+}
+
+/* margin */
+h1 {
+  margin: 3rem 1rem;
+}
+
+/* border */
+h1 {
+  text-align: center;
+  border: 0.1rem solid black;
+}
+
+/* width & height */
+h1 {
+  background-color: rgba(0, 255, 255, 0.594);
+  width: 100vh;
+  height: 5vw;
+}
+
+/* Pseudo-class */
+div a.survey:hover {
+  color: rgb(226, 43, 43);
+  background-color: skyblue;
+}
