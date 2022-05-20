@@ -34,3 +34,19 @@ div a.survey:hover {
   color: rgb(226, 43, 43);
   background-color: skyblue;
 }
+
+/* Display */
+a.survey {
+  background-color: aqua;
+  display: block;
+  width: 100px;
+  height: 50px;
+}
+
+/* margin */
+a.survey {
+  background-color: aqua;
+  width: 100px;
+  height: 50px;
+  margin: 2rem 1rem;
+}

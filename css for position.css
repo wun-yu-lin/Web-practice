@@ -1,0 +1,53 @@
+/* div.container {
+  background-color: rgb(0, 0, 0);
+  width: 300px;
+  height: 500px;
+  position: relative;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+}
+
+div.box1 {
+  background-color: rgb(255, 0, 0);
+  position: relative;
+}
+
+div.box2 {
+  background-color: rgb(0, 255, 17);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+  /* top&right=0px, box與web right&Top distance=0 */
+
+/* div.box3 {
+  background-color: rgb(251, 0, 255);
+} */
+
+div.container {
+  background-color: rgb(0, 0, 0);
+  width: 300px;
+  height: 1000px;
+}
+
+div.box {
+  width: 100px;
+  height: 100px;
+}
+
+div.box1 {
+  background-color: rgb(4, 255, 0);
+}
+
+div.box2 {
+  background-color: rgb(255, 0, 68);
+  position: sticky;
+  top: 0;
+}
+
+div.box3 {
+  background-color: rgb(251, 0, 255);
+}
