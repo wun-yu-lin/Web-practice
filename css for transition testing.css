@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+}
+
+h1 {
+  /* property name duration timing function */
+  transition: all 1s ease-in;
+}
+
+h1:hover {
+  background-color: rgba(137, 219, 110, 0.715);
+  color: rgb(255, 255, 255);
+}

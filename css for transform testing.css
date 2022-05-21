@@ -1,0 +1,41 @@
+h1 {
+  color: red;
+}
+
+/* 2D transform */
+/* div.container {
+  background-color: black;
+  width: 40rem;
+  height: 120rem;
+}
+div.box {
+  width: 10rem;
+  height: 15rem;
+  background-color: blue;
+  transition: all 0.5s ease-in;
+}
+
+div.box:hover {
+  transform: translate(100px, 200px) rotate(90deg) scale(0.5);
+} */
+
+/* 3D transform */
+/* rotateXYZ */
+div.container {
+  background-color: black;
+  width: 40rem;
+  height: 120rem;
+}
+div.box {
+  width: 10rem;
+  height: 15rem;
+  background-color: blue;
+  transition: all 2s ease-in;
+  position: relative;
+  left: 200px;
+  top: 200px;
+}
+
+div.box:hover {
+  transform: rotateZ(90deg) rotateY(90deg) rotateX(90deg);
+}
