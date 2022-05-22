@@ -1,42 +1,41 @@
-/* flex-grow setting */
+/* flexbox shrink */
 .container {
   border: 3px solid black;
   display: flex;
+  height: 300px;
   flex-wrap: wrap;
 }
 
 .box {
-  /* width: 100px; */
   height: 100px;
-  flex-basis: 50px;
+  width: 100px;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50px; */
+  /* grow, shrink, basis  */
+  flex: 1 1 100px;
 }
 
 .box1 {
   background-color: aqua;
-  flex-grow: 1;
 }
 
 .box2 {
   background-color: rgb(255, 0, 0);
-  flex-grow: 2;
 }
 
 .box3 {
   background-color: rgb(4, 255, 0);
-  flex-grow: 3;
 }
 
 .box4 {
   background-color: rgb(221, 255, 0);
-  flex-grow: 4;
 }
 
 .box5 {
   background-color: rgb(255, 132, 0);
-  flex-grow: 5;
 }
 
 .box6 {
   background-color: rgb(255, 0, 221);
-  flex-grow: 6;
 }
