@@ -12,6 +12,10 @@ p {
   color: green;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* element Selector */
 h1 {
   color: red;
