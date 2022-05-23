@@ -1,0 +1,9 @@
+header {
+  background-color: aqua;
+  h1 {
+    color: $themeColor;
+  }
+  &:hover {
+    background-color: green;
+  }
+}

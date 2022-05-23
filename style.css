@@ -16,6 +16,15 @@ html {
   scroll-behavior: smooth;
 }
 
+/* local font  */
+@font-face {
+  font-family: "myFont";
+  src: url(../JasonHandwriting1.ttf);
+}
+
+* {
+  font-family: "myFont", sans-serif;
+}
 /* element Selector */
 h1 {
   color: red;

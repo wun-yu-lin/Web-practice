@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$themeColor: green;
+@import "./_header.SCSS";
+
+@mixin flexbox($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+div.link1 {
+  @include flexbox(column);
+}
+
+.pic {
+  width: 100px;
+  object-fit: cover;
+  //   object-fit 可以避免圖片被壓縮
+}
